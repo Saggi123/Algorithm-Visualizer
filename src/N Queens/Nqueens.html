@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>N Queens Problem</title>
+</head>
+<body>
+	<h3> N Queens Problem Visualisation </h3>
+	<label for="input">Enter N (max 8) : </label>
+	<input type = "text" id = "input"><br><br>
+	<button type = "button" id = "solve" onclick="solveNqueens ()"> Solve </button>
+	<button type = "button" id = "speed" onclick="setSpeed ()"> Speed 1x </button>
+	<button type = "button" id = "NextSol" disabled = "true" onclick="nextSol ()"> Show Next Sol </button> <br>
+	<p id = "check"></p> <br>
+	<div id = "visuals" style = "margin : 20px">
+		<canvas id = "chessboard" height = "500" width = "500" style ="border : 2px solid #000000"> </canvas>
+	</div>
+</body>
+<script type="text/javascript" src="Nqueens.js" > </script>
+</html>
